@@ -1,0 +1,206 @@
+/* Master Styles */
+html {
+    background-color: #8a8a8a;
+}
+
+body {
+    margin:auto;
+    max-width: 1250px;
+    margin-top: 0px;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Navigation Styles */
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: white;
+}
+
+.left-side {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav_wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav_wrapper > .right-side > div {
+    display: flex
+}
+
+.nav_wrapper > .right-side > .logos img {
+    transition: transform 0.2s;
+    transform: scale(1);
+    margin-right: 20px;
+}
+
+.nav_wrapper > .right-side > .logos img:hover {
+    transition: transform 0.15s;
+    transform: scale(1.4)
+}
+
+.nav_link_wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.nav_link_wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav_link_wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav_link_wrapper a:hover {
+    color:black
+}
+
+/* centrepiece Styles */
+.centerpiece {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.centerpiece > .playground-text {
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-top: 0px solid black;
+}
+
+.centerpiece > .about-text {
+    color: white;
+    font-size: 10pt;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Portfolio Styles */
+
+.portfolio-items-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img{
+    width: 40%;
+    margin-bottom: 20px;
+
+}
+
+/* Needs more specific */
+.img-text-wrapper .subtitle {
+    transition:0.5s;
+    color: transparent;
+    font-weight: 200;
+ 
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 200;
+    color: white;
+}
+
+.img-darken {
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+
+/* Bottom Navigation Styles */
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: white;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* About Styles */
+
+.two-column-wrapper {
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    background-color: white;
+}
+
+.profile-image-wrapper img{
+    width:90%;
+    margin-left: 38px;
+}
+
+.profile-content-wrapper {
+    padding:28px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.profile-content-wrapper h1{
+    color: rgb(71, 91, 155);
+}
