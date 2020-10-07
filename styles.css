@@ -1,11 +1,10 @@
 /* Master Styles */
 html {
-    background-color: #8a8a8a;
+    background-color: #343031;
 }
 
 body {
     margin:auto;
-    max-width: 1250px;
     margin-top: 0px;
     background-color: white;
     border-left: 1px solid black;
@@ -23,8 +22,8 @@ body {
 .nav_wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
-    background-color: white;
+    padding: 25px;
+    background-color: #2F2E38;
 }
 
 .left-side {
@@ -33,6 +32,7 @@ body {
 
 .right-side {
     display: flex;
+    color: white;
 }
 
 .nav_wrapper > .left-side > div {
@@ -63,17 +63,17 @@ body {
 }
 
 .nav_link_wrapper a {
-    color: #8a8a8a;
+    color: white;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .nav_link_wrapper:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .nav_link_wrapper a:hover {
-    color:black
+    color: white
 }
 
 /* centrepiece Styles */
@@ -175,11 +175,11 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 .active-nav-link a {
-    color: black !important;
+    color: white !important;
 }
 
 /* About Styles */
@@ -187,7 +187,7 @@ body {
 .two-column-wrapper {
     display:grid;
     grid-template-columns:  1fr 1fr;
-    background-color: white;
+    background-color: #F2F2F2;
 }
 
 .profile-image-wrapper img{
@@ -202,5 +202,5 @@ body {
 }
 
 .profile-content-wrapper h1{
-    color: rgb(71, 91, 155);
+    color: #343031;
 }
