@@ -69,184 +69,34 @@
         </div>
     
         <div class="content-wrapper">
-            <div class="portfolio-items-wrapper">
 
-                <div class="portfolio-item-wrapper">
+            <div class="profile-content-wrapper">
+                <h1>Portfolio Objects</h1>
+                <p>Here you will find extracts from different pieces of work I have completed during my Master's degree in Mechanical Engineering, my PhD in Machine Learning and ballistics and everything inbetween!</p> 
+                <h2>Publications</h2>
 
-                    <div class="portfolio-img-background" style="background-image: url(Images/chopper.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/solid2.png" alt="" width="20px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            <h4>S107G Toy Helicopter</h4> <p style = font-size:smaller>Each component individually modelled in SolidEdge and rendered using KeyShot.</p>
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/stress.png)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/matlab.png" alt="" width="30px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            <h4>DEM Crack Propagation</h4> <p style = font-size:smaller>Created meshing algorithm and complete GUI in MATLAB's App Designer to predict the deflection and stress concentrations of loaded structures.</p>
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/sun_forest.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Third.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/fox_forest.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Fourth.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/purple_sun.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Fifth.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/red_lights.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Sixth.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/desert_pillars.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Seventh.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/title_wallpaper.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Eighth.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
-
-                <div class="portfolio-item-wrapper">
-
-                    <div class="portfolio-img-background" style="background-image: url(Images/sun_forest.jpg)"> </div>
-
-                    <div class="img-text-wrapper">
-
-                        <div class="logo-wrapper">
-                            <img src="Logos/Reddit.webp" alt="" width="50px">
-                        </div>
-                        
-                        <div class="subtitle">
-                            Ninth.
-                        </div>
-
-                    </div>
-
-                    
-                </div>
+                <h3>An Artificial Intelligence-based Hybrid Method for Multi-layered Armour Systems</h3>
+                
+                https://link.springer.com/chapter/10.1007/978-3-030-30355-6_16
 
 
             </div>
+
+            <div class="flex-container">
+                <div>
+                    <img src="Images/stress_gui.png" width="100%">
+                    <h1>Test</h1>
+                    Some text
+                </div>
+                <div>
+                    <img src="Images/stress.png" width="100%">
+                </div>
+                <div>
+                    <img src="Images/chopper.jpg" width="100%">
+                </div>
+            </div> 
+
+
         </div>
 
         <div class="bottom-nav">
@@ -255,18 +105,5 @@
 
     </div>
 </body>
-
-<script>
-    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
-    portfolioItems.forEach(portfolioItem => {
-        portfolioItem.addEventListener('mouseover', () => {
-            portfolioItem.childNodes[1].classList.add('img-darken');
-        })
-
-        portfolioItem.addEventListener('mouseout', () => {
-            portfolioItem.childNodes[1].classList.remove('img-darken');
-        })
-    })
-</script>
 
 </html>

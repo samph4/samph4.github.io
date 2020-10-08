@@ -1,6 +1,6 @@
 /* Master Styles */
 html {
-    background-color: #343031;
+    background-color: #2F2E38;
 }
 
 body {
@@ -111,41 +111,6 @@ body {
 
 /* Portfolio Styles */
 
-.portfolio-items-wrapper {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-}
-
-.portfolio-item-wrapper {
-    position: relative;
-}
-
-.portfolio-img-background {
-    height: 300px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.logo-wrapper img{
-    width: 40%;
-    margin-bottom: 20px;
-
-}
 
 /* Needs more specific */
 .img-text-wrapper .subtitle {
@@ -204,3 +169,25 @@ body {
 .profile-content-wrapper h1{
     color: #343031;
 }
+
+/* About Styles */
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: center;
+    
+  }
+  
+  .flex-container > div {
+    background-color: #2F2E38;
+    width: 500px;
+    margin: 10px;
+    padding: 1px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+
+    
+  }
