@@ -80,6 +80,7 @@ body {
 .centerpiece {
     position: relative;
     margin-bottom: 15px;
+    background-color: #2F2E38;
 }
 
 .centerpiece > .playground-text {
